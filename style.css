@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arapey; 
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    flex: 3;
+    border: solid lightgray 1px; /* border around main article */
+}
+
+a {
+    text-decoration: none;
+}
+
+span { /* figure out how to do this better with some regex syntax :/ */
+    font-style: italic;
+    font-weight: bold;
+}
