@@ -21,6 +21,7 @@ main {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 span { /* figure out how to do this better with some regex syntax :/ */
