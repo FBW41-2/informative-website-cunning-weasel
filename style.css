@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arapey; 
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    padding: 5%;
+}
+
+main {
+    border: solid lightgray 1px; /* border around main article */
+    grid-column: 2 / 3;
+    padding: 5%;
+    grid-template-rows: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: grid;
+}
+
+span { /* figure out how to do this better with some regex syntax :/ */
+    font-style: italic;
+    font-weight: bold;
+}
+
